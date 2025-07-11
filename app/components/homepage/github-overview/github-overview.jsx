@@ -79,7 +79,7 @@ export default function GitHubOverview() {
                                     gleb
                                 </h1>
                                 <span className="flex items-center gap-2 text-nowrap">
-                                    <span>@valdemirum</span>
+                                    <span>@loeclos</span>
                                     <div className="size-1.5 rounded-full bg-current opacity-70" />
                                     <span className="flex items-center gap-1 text-nowrap">
                                         <svg

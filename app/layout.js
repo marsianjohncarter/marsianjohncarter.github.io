@@ -7,9 +7,9 @@ import ThemeProvider from '@/ui/theme/theme-provider';
 import './globals.css';
 
 export const metadata = {
-    title: 'valdemirum',
+    title: 'loeclos',
     description:
-        'valdemirum portfolio website | Gleb Zhukov | Web Developer | React Developer | The asteroid of programming | Can be found on reddit, github, discord, and many other places. ',
+        'loeclos portfolio website | Gleb Zhukov | Web Developer | React Developer | The asteroid of programming | Can be found on reddit, github, discord, and many other places. ',
 };
 
 const links = [

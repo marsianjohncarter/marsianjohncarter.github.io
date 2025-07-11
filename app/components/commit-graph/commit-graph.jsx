@@ -6,5 +6,5 @@ const minimalTheme = {
   };
 
 export default function CommitGraph() {
-    return <GitHubCalendar username="valdemirum" theme={minimalTheme} />;
+    return <GitHubCalendar username="loeclos" theme={minimalTheme} />;
 }

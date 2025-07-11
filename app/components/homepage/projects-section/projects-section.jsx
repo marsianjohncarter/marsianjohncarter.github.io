@@ -281,7 +281,7 @@ const cards = [
         images: [{ src: '/img/OLHAR-image-1.png', alt: 'Olhar Device' }],
         ctaText: 'Visit',
         ctaLink: 'https://olhar.media/',
-        codeLink: 'https://github.com/valdemirum/OlharDevice',
+        codeLink: 'https://github.com/loeclos/OlharDevice',
         codeText: 'View Code',
         content: () => {
             return skillsUsed({
@@ -324,7 +324,7 @@ const cards = [
 
         ctaText: 'Visit',
         ctaLink: '/',
-        codeLink: 'https://github.com/valdemirum/valdemirum.github.io',
+        codeLink: 'https://github.com/loeclos/loeclos.github.io',
         codeText: 'View Code',
         content: () => {
             return skillsUsed({
@@ -366,7 +366,7 @@ const cards = [
         ],
         ctaText: 'Visit',
         ctaLink: 'https://gabc-media-team.web.app/',
-        codeLink: 'https://github.com/valdemirum/gabc-media-team',
+        codeLink: 'https://github.com/loeclos/gabc-media-team',
         codeText: 'View Code',
         content: () => {
             return skillsUsed({
@@ -396,8 +396,8 @@ const cards = [
         images: [{ src: '/img/not-available.png', alt: 'Not Available' }],
 
         ctaText: 'View Code',
-        ctaLink: 'https://github.com/valdemirum/github-react-example',
-        codeLink: 'https://github.com/valdemirum/github-react-example',
+        ctaLink: 'https://github.com/loeclos/github-react-example',
+        codeLink: 'https://github.com/loeclos/github-react-example',
         codeText: 'View Code',
         content: () => {
             return skillsUsed({
@@ -427,8 +427,8 @@ const cards = [
         ],
 
         ctaText: 'Visit',
-        ctaLink: 'https://chess-website-completed.onrender.com/',
-        codeLink: 'https://github.com/valdemirum/chess-website',
+        ctaLink: 'https://chessgame-85747.vercel.app/',
+        codeLink: 'https://github.com/loeclos/chess-website',
         codeText: 'View Code',
         content: () => {
             return skillsUsed({
@@ -455,7 +455,7 @@ const cards = [
         ],
         ctaText: 'Visit',
         ctaLink: 'https://nutrify-preview.web.app/',
-        codeLink: 'https://github.com/valdemirum/nutrify-website',
+        codeLink: 'https://github.com/loeclos/nutrify-website',
         codeText: 'View Code',
         content: () => {
             return skillsUsed({
@@ -488,7 +488,7 @@ const cards = [
 
         ctaText: 'Visit',
         ctaLink: 'https://minifolio-snowy.vercel.app/',
-        codeLink: 'https://github.com/valdemirum/Minifolio',
+        codeLink: 'https://github.com/loeclos/Minifolio',
         codeText: 'View Code',
         content: () => {
             return skillsUsed({

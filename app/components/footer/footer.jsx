@@ -53,7 +53,7 @@ export default function Footer() {
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/valdemirum"
+                                        href="https://github.com/loeclos"
                                         className="hover:underline "
                                     >
                                         Github
@@ -93,10 +93,10 @@ export default function Footer() {
                     <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
                         © 2025{' '}
                         <a
-                            href="https://github.com/valdemirum"
+                            href="https://github.com/loeclos"
                             className="hover:underline"
                         >
-                            valdemirum
+                            loeclos
                         </a>
                         . All Rights Reserved.
                     </span>

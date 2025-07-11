@@ -8,7 +8,7 @@
         "export": "next build && next export",
         "start": "next start",
         "lint": "next lint",
-        "deploy": "gh-pages -d out --nojekyll --cname valdemirum.github.io"
+        "deploy": "gh-pages -d out --nojekyll --cname loeclos.github.io"
     },
     "dependencies": {
         "@radix-ui/react-hover-card": "^1.1.6",

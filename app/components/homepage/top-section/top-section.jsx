@@ -63,7 +63,7 @@ export default function TopSection() {
                     </p>
                     <CardFooter className={'mx-auto text-center bottom-0'}>
                         <Link
-                            href={'https://github.com/valdemirum'}
+                            href={'https://github.com/loeclos'}
                             target={'_blank'}
                         >
                             <Button variant="amber">
