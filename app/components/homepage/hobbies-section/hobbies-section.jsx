@@ -1,7 +1,7 @@
 import AudioPlayer from '@/components/audio-player/audio-player';
 import BookItem from '@/components/book-item/book-item';
 import { merriweather } from '@/ui/lib/fonts';
-
+import {v4 as uuidv4} from 'uuid';
 const sunoSongs = [
     {
         title: "Let's run away.",
@@ -25,37 +25,47 @@ const sunoSongs = [
 
 const books = [
     {
-        id: 1,
+        id: uuidv4(),
         title: 'The Count of Monte Cristo',
         author: 'Alexandre Dumas',
     },
     {
-        id: 2,
+        id : uuidv4(),
+        title: 'The Hitchhiker\'s Guide to the Galaxy',
+        author: 'Douglas Adams',
+    },
+    {
+        id: uuidv4(),
+        title: 'I, Robot',
+        author: 'Isaac Asimov',
+    },
+    {
+        id: uuidv4(),
         title: 'The Adventures of Sherlock Holmes',
         author: 'Sir Arthur Conan Doyle',
     },
     {
-        id: 3,
+        id: uuidv4(),
         title: 'The Stormlight Archive',
         author: 'Brandon Sanderson',
     },
     {
-        id: 4,
+        id: uuidv4(),
         title: 'Name of the Wind',
         author: 'Patrick Rothfuss',
     },
     {
-        id: 5,
+        id: uuidv4(),
         title: 'The Lord of the Rings',
         author: 'J. R. R. Tolkien',
     },
     {
-        id: 6,
+        id: uuidv4(),
         title: 'The Hobbit',
         author: 'J. R. R. Tolkien',
     },
     {
-        id: 7,
+        id: uuidv4(),
         title: 'The Silmarillion',
         author: 'J. R. R. Tolkien',
     },
