@@ -125,6 +125,32 @@ const DotButton = (props) => {
     );
 };
 
+// New: SlideWithLoading component
+const SlideWithLoading = ({ image }) => {
+    const [loading, setLoading] = useState(true);
+
+    return (
+        <div className="embla__slide flex justify-center items-center" key={`embla-image-${image.alt}`}>
+            <div className="relative">
+                {loading && (
+                    <div className="absolute inset-0 flex justify-center items-center z-10 bg-white bg-opacity-70 rounded-3xl">
+                        <span>Loading...</span>
+                    </div>
+                )}
+                <Image
+                    className="rounded-3xl"
+                    src={image.src}
+                    alt={image.alt}
+                    width={600}
+                    height={500}
+                    priority={true}
+                    onLoadingComplete={() => setLoading(false)}
+                />
+            </div>
+        </div>
+    );
+};
+
 const ProjectImageCarousel = (props) => {
     const { slides, options } = props;
     const [emblaRef, emblaApi] = useEmblaCarousel(options);
@@ -144,9 +170,7 @@ const ProjectImageCarousel = (props) => {
             <div className="embla__viewport" ref={emblaRef}>
                 <div className="embla__container">
                     {slides.map((image) => (
-                        <div className="embla__slide flex justify-center items-center" key={`embla-image-${image.alt}`}>
-                            <Image className='rounded-3xl' src={image.src} alt={image.alt} width={600} height={500} priority={true} />
-                        </div>
+                        <SlideWithLoading image={image} key={`embla-image-${image.alt}`} />
                     ))}
                 </div>
             </div>
