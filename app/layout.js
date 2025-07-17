@@ -9,7 +9,7 @@ import './globals.css';
 export const metadata = {
     title: 'loeclos',
     description:
-        'loeclos portfolio website | Gleb Zhukov | Web Developer | React Developer | The asteroid of programming | Can be found on reddit, github, discord, and many other places. ',
+        'loeclos portfolio website | Gleb Zhukov | Web Developer | React Developer',
 };
 
 const links = [
